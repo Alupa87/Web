@@ -1,0 +1,32 @@
+# Python 字节码缓存（必加）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境（必加，避免跨环境冲突）
+venv/
+env/
+.venv/
+ENV/
+
+# 本地配置/环境变量（含敏感信息，必加）
+.env
+config.local.py
+local_settings.py
+
+# 包构建/分发文件
+*.egg-info/
+dist/
+build/
+*.whl
+
+# 日志/缓存/临时文件
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 系统无关文件
+.DS_Store  # Mac
+Thumbs.db  # Windows
